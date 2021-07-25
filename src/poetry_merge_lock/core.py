@@ -4,7 +4,8 @@ from typing import Sequence
 from typing import Tuple
 
 import tomlkit
-from poetry.packages import Package
+from poetry.core.packages.package import Package
+#  from poetry.packages import Package
 from poetry.packages.locker import Locker
 from poetry.poetry import Poetry
 from poetry.utils._compat import Path
